@@ -18,9 +18,8 @@ class UserRoot(serializers.ModelSerializer):
             'username',
             'email',
             'password',
-            'tipo',
-            'suspenso',
-           
+            'tipo'
+            
         ]
     
     def get_tokens(self, user):
